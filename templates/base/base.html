@@ -1,0 +1,21 @@
+<html>
+<head>
+    {% include 'templates/base/head.html' %}
+
+    <title>{% block page_title %}{% endblock %}</title>
+</head>
+
+<body style="">
+{% block content %}
+
+{% endblock %}
+
+
+{% include 'templates/base/footer.html' %}
+
+
+<script src="js/main.js"></script>
+</body>
+
+
+</html>
